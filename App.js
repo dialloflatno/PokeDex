@@ -2,6 +2,7 @@ import React  from "react";
 import Display from './Display';
 import  Navigator  from './Navigator';
 import './App.css';
+import AddNew from "./AddNew";
 
 
 
@@ -14,8 +15,9 @@ function App() {
         <Navigator />
         </div>
         <div className = "Poke_field"/>
-        <Display />
+        {/* <Display /> */}
      </div>
+     <AddNew/>
        
     
     </div>

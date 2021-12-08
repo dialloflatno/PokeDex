@@ -1,3 +1,4 @@
+import Toggle from './Toggle';
 import './App.css';
 import Card from './Card';
 
@@ -16,9 +17,9 @@ function Display() {
         <Card />
       </div>
         </div>
-        <button className = "toggle"/>
+      <Toggle/>
   
-    
+  
     </div>
     
   );
